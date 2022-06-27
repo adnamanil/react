@@ -1,5 +1,45 @@
 # @primer/components
 
+## 35.4.0
+
+### Minor Changes
+
+- [#2108](https://github.com/primer/react/pull/2108) [`e5be3db3`](https://github.com/primer/react/commit/e5be3db3112db20efef5e49ebe89ea3af17fd486) Thanks [@mperrotti](https://github.com/mperrotti)! - Adds a draft component to render a basic segmented control.
+
+### Patch Changes
+
+- [#2125](https://github.com/primer/react/pull/2125) [`78dc8134`](https://github.com/primer/react/commit/78dc8134b1d38c6826766f2f85ae943e8b1a8088) Thanks [@owenniblock](https://github.com/owenniblock)! - Adds roles of tablist and tab to the TabNav component, required rearranging the HTML elements to be semantically correct
+
+* [#2149](https://github.com/primer/react/pull/2149) [`b3a98bac`](https://github.com/primer/react/commit/b3a98baccc19a77d16b8c42f7873073070f24b89) Thanks [@dgreif](https://github.com/dgreif)! - Converted commonjs `require` of `focus-visible` to an esm `import`
+
+- [#2120](https://github.com/primer/react/pull/2120) [`53713b2f`](https://github.com/primer/react/commit/53713b2f3ab7dd7084ce3e602c01c3f66ccd7579) Thanks [@colebemis](https://github.com/colebemis)! - Deprecate SideNav in favor of [NavList](https://primer.style/NavList).
+
+  ## Before
+
+  ```jsx
+  <SideNav aria-label="Main">
+    <SideNav.Link href="/" selected>
+      Home
+    </SideNav.Link>
+    <SideNav.Link href="/about">About</SideNav.Link>
+    <SideNav.Link href="/contact">Contact</SideNav.Link>
+  </SideNav>
+  ```
+
+  ## After
+
+  ```jsx
+  <NavList aria-label="Main">
+    <NavList.Item href="/" aria-current="page">
+      Home
+    </NavList.Item>
+    <NavList.Item href="/about">About</NavList.Item>
+    <NavList.Item href="/contact">Contact</NavList.Item>
+  </NavList>
+  ```
+
+* [#2133](https://github.com/primer/react/pull/2133) [`65fcd9f2`](https://github.com/primer/react/commit/65fcd9f23de939014351f8e135f912cfa00f71a3) Thanks [@mattcosta7](https://github.com/mattcosta7)! - Passthrough ActionList.Group props from NavList.Group
+
 ## 35.3.0
 
 ### Minor Changes
