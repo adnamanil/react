@@ -6,22 +6,6 @@
 
 <p align="center">A React implementation of GitHub's Primer Design System</p>
 
-<p align="center">
-  <a aria-label="npm package" href="https://www.npmjs.com/package/@primer/react">
-    <img alt="" src="https://img.shields.io/npm/v/@primer/react.svg">
-  </a>
-  <a aria-label="contributors graph" href="https://github.com/primer/react/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/primer/react.svg">
-  </a>
-  <a aria-label="last commit" href="https://github.com/primer/react/commits/main">
-    <img alt="" src=
-  "https://img.shields.io/github/last-commit/primer/react.svg">
-  </a>
-  <a aria-label="license" href="https://github.com/primer/react/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/primer/react.svg" alt="">
-  </a>
-</p>
-
 ## Documentation
 
 Our documentation site lives at [primer.style/react](https://primer.style/react). You'll be able to find detailed documentation on getting started, all of the components, our theme, our principles, and more.
