@@ -7,7 +7,6 @@
 - `FlexContainer` is now named `Flex`
 - `FlexItem` is now `Flex.Item`
 - `UnderlineNavItem` is now `UnderlineNav.Item`
-- `FilterListItem` is now `FilterList.Item`
 
 There is a [codemod](#codemods) available to upgrade component identifiers from [v3.x.x-beta](#3-0-0-beta):
 
